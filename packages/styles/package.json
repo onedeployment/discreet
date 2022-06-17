@@ -1,0 +1,34 @@
+{
+  "name": "discreet",
+  "private": false,
+  "version": "0.0.1",
+  "description": "SCSS modular style framework",
+  "scripts": {
+    "scss:watch": "sass --no-source-map --watch scss:css",
+    "postcss:watch": "postcss css/*.css --dir css --watch"
+  },
+  "keywords": [
+    "scss",
+    "scss-framework"
+  ],
+  "author": "Caesar Exploit",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onedeployment/discreet.git",
+    "directory": "packages/styles"
+  },
+  "bugs": {
+    "url": "https://github.com/onedeployment/discreet/issues"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "css-declaration-sorter": "^6.3.0",
+    "cssnano": "^5.1.11",
+    "cssnano-preset-advanced": "^5.3.7",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^9.1.0",
+    "sass": "^1.52.3"
+  },
+  "homepage": "https://github.com/onedeployment/discreet#readme"
+}

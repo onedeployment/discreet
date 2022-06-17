@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <div class='container'>
+    <div class="grid">
+
+      <div class="grid-05">
+        <label for="superheroe">Elige un superhéroe</label>
+        <select id="superheroe">
+          <option>Batman</option>
+          <option>Eliseo</option>
+          <option>Robin</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="super">Elige un superhéroe</label>
+        <select id="super">
+          <option>Batman</option>
+          <option>Eliseo</option>
+          <option>Robin</option>
+        </select>
+      </div>
+
+      <div class="grid-05">
+        <label for="Percentage">Percentage</label>
+        <input class="base icon" id="Percentage" style="--icon: url('/svg/percentage.svg')" type="number"
+          inputmode="numeric" />
+      </div>
+
+      <div class="grid-05">
+        <label for="browser">Choose your browser from the list:</label>
+        <input class="base icon" list="browsers" id="browser" style="--icon: url('/svg/window.svg')">
+        <datalist id="browsers">
+          <option value="Edge" />
+          <option value="Firefox" />
+          <option value="Chrome" />
+          <option value="Opera" />
+          <option value="Safari" />
+        </datalist>
+      </div>
+
+
+      <div class="grid-05">
+        <label for="amount">Amount</label>
+        <input class="base icon" id="amount" style="--icon: url('/svg/dollar-sign-alt.svg')" type="number"
+          inputmode="numeric" value="0.00" />
+      </div>
+
+      <div class="grid-05">
+        <label for="date">Date</label>
+        <input id="date" class="base" type="date" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+      </div>
+
+      <div class="grid-05">
+        <label for="datetime-local">Datetime local</label>
+        <input id="datetime-local" class="base" type="datetime-local" value="2018-06-12T19:30" min="2018-06-07T00:00"
+          max="2018-06-14T00:00">
+      </div>
+
+      <div class="grid-05">
+        <label for="email">Email</label>
+        <input id="email" class="base icon" style="--icon: url('/svg/at.svg')" type="email"
+          placeholder="due@example.com">
+      </div>
+
+      <div class="grid-05">
+        <label for="month">Month</label>
+        <input id="month" class="base" type="month" min="2018-03" value="2018-05">
+      </div>
+
+      <div class="grid-05">
+        <label for="password">Password</label>
+        <input class="base icon" style="--icon: url('/svg/lock.svg')" autocomplete="new-password" type="password"
+          placeholder="type password">
+      </div>
+
+      <div class="grid-05">
+        <label for="search">Search</label>
+        <input id="search" class="base icon" style="--icon: url('/svg/search.svg')" type="search"
+          placeholder="type search">
+      </div>
+
+      <div class="grid-05">
+        <label for="phone">Phone number</label>
+        <input id="phone" class="base icon" autocomplete="tel" style="--icon: url('/svg/phone.svg')" type="tel"
+          placeholder="33 (265) 73052">
+      </div>
+
+      <div class="grid-05">
+        <label for="disabled">Disabled</label>
+        <input id="disabled" class="base icon" disabled style="--icon: url('/animations/loading.gif')" type="text"
+          placeholder="type text loading">
+      </div>
+
+      <div class="grid-05">
+        <label for="text">Type text</label>
+        <input id="text" class="base" type="text">
+      </div>
+
+      <div class="grid-05">
+        <label for="time">Time</label>
+        <input id="time" class="base" type="time" min="09:00" max="18:00" value="18:02">
+      </div>
+
+      <div class="grid-05">
+        <label for="url">Url</label>
+        <input class="base icon" style="--icon: url('/svg/link-h.svg')" type="url" placeholder="https://google.com">
+      </div>
+
+      <div class="grid-05">
+        <label for="textarea">Textarea</label>
+        <textarea id="textarea" cols="30" rows="10" placeholder="textarea"></textarea>
+      </div>
+
+      <div class="grid-05">
+        <div>
+          <input type="radio" id="Small" name="radio" value="Small">
+          <label for="Small">Small</label>
+        </div>
+        <div>
+          <input type="radio" id="Medium" name="radio" value="Medium">
+          <label for="Medium">Medium</label>
+        </div>
+        <div>
+          <input type="radio" id="Large" name="radio" value="Large" disabled>
+          <label for="Large">Large</label>
+        </div>
+      </div>
+
+      <div>
+        <input type="checkbox" id="scales" name="scales" checked>
+        <label for="scales"> I agree to share my information with partners</label>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
