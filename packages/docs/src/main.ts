@@ -1,1 +1,1 @@
-import 'discreet/css/all.css'
+import "discreet/css/all.css";
