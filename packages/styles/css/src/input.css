@@ -1,0 +1,42 @@
+input,
+select,
+textarea {
+  border: 0.0625rem solid #D3D3D3;
+  border-radius: 0.5rem;
+  background-color: #FFF;
+}
+
+input,
+select,
+textarea {
+  padding: 0.5rem;
+}
+
+input:-webkit-autofill {
+  -webkit-padding-start: 0.75rem !important;
+}
+input[type=checkbox], input[type=radio] {
+  all: revert;
+}
+
+input,
+select,
+textarea {
+  appearance: none;
+  color: #707070;
+  font: 1rem var(--font);
+}
+input::placeholder,
+select::placeholder,
+textarea::placeholder {
+  color: currentColor;
+}
+
+select:not([size]) {
+  padding-right: 2.35rem;
+  background: url(/svg/sort.svg) no-repeat center right 0.75rem/1em #fff;
+}
+
+label {
+  color: #4E4E4E;
+}

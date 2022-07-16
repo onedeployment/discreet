@@ -1,0 +1,15 @@
+.radix-success {
+  color: #0761D1;
+  border-color: #0761D1;
+  background-color: #D3E5FF;
+}
+.radix-warning {
+  color: #AB570A;
+  border-color: #AB570A;
+  background-color: #FFEFCF;
+}
+.radix-error {
+  color: #C50000;
+  border-color: #C50000;
+  background-color: #F7D4D6;
+}

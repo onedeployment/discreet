@@ -1,10 +1,10 @@
 {
   "name": "discreet",
   "private": false,
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "SCSS modular style framework",
   "scripts": {
-    "scss:watch": "sass --no-source-map --watch scss:css",
+    "scss:watch": "sass --no-source-map --watch sass:css",
     "postcss:watch": "postcss css/*.css --dir css --watch"
   },
   "keywords": [
@@ -24,11 +24,11 @@
   "devDependencies": {
     "autoprefixer": "^10.4.7",
     "css-declaration-sorter": "^6.3.0",
-    "cssnano": "^5.1.11",
-    "cssnano-preset-advanced": "^5.3.7",
+    "cssnano": "^5.1.12",
+    "cssnano-preset-advanced": "^5.3.8",
     "postcss": "^8.4.14",
-    "postcss-cli": "^9.1.0",
-    "sass": "^1.52.3"
+    "postcss-cli": "^10.0.0",
+    "sass": "^1.53.0"
   },
   "homepage": "https://github.com/onedeployment/discreet#readme"
 }

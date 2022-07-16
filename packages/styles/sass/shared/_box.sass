@@ -1,0 +1,22 @@
+@use "../library/_color" as color
+@use "../library/_size" as size
+
+%no-padding
+    border: size.$px1 solid color.$border
+    border-radius: size.$px8
+    background-color: color.$background-highlighted
+
+%BOX-SM
+    padding: size.$px4
+
+    @extend %no-padding
+
+%BOX-MD
+    padding: size.$px8
+
+    @extend %no-padding
+
+%BOX-LG
+    padding: size.$px16
+
+    @extend %no-padding

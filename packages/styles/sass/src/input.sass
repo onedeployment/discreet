@@ -1,0 +1,30 @@
+@use "../shared/_box"
+@use "../library/_color" as color
+
+input
+    &:-webkit-autofill
+        -webkit-padding-start: 0.75rem !important
+
+    &[type=checkbox],
+    &[type=radio]
+        all: revert
+
+input,
+select,
+textarea
+    appearance: none
+    color: color.$accent-watermarked
+    font: 1rem var(--font)
+
+    @extend %BOX-MD
+
+    &::placeholder
+        color: currentColor
+
+select
+    &:not([size])
+        padding-right: 2.35rem
+        background: url(/svg/sort.svg) no-repeat center right 0.75rem/1em #fff
+
+label
+    color: color.$accent-highlighted

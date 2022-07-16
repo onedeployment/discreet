@@ -1,0 +1,17 @@
+.box-lg, .box-md, .box-sm {
+  border: 0.0625rem solid #D3D3D3;
+  border-radius: 0.5rem;
+  background-color: #FFF;
+}
+
+.box-sm {
+  padding: 0.25rem;
+}
+
+.box-md {
+  padding: 0.5rem;
+}
+
+.box-lg {
+  padding: 1rem;
+}

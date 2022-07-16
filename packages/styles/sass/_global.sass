@@ -1,0 +1,20 @@
+@use "./library/_color" as color 
+
+:root
+    --font: system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+
+body
+    font: 16px var(--font)
+    line-height: 1.4
+
+    color: color.$accent
+    background: color.$background
+
+*,
+*::before,
+*::after
+    box-sizing: border-box
+
+*
+    margin: 0
+    padding: 0

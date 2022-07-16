@@ -1,0 +1,19 @@
+.btn, .btn-primary {
+  border: 0.0625rem solid #D3D3D3;
+  border-radius: 0.5rem;
+  background-color: #FFF;
+}
+
+.btn, .btn-primary {
+  padding: 0.5rem;
+}
+
+.btn, .btn-primary {
+  color: #707070;
+  font: 1rem var(--font);
+}
+.btn-primary {
+  color: #FFF;
+  border-color: #1A1B25;
+  background-color: #1A1B25;
+}

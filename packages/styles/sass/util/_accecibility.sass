@@ -1,0 +1,16 @@
+@use "../library/_size" as size
+@use "../library/_color" as color
+
+:focus-visible
+    outline-color: color.$outline-color
+    outline-offset: size.$px4
+
+    @supports (-webkit-touch-callout: none)
+        outline-offset: 0
+
+[disabled]
+    cursor: not-allowed
+    opacity: 0.5
+
+button
+    cursor: pointer

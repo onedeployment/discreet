@@ -1,0 +1,15 @@
+@use "../shared/_box"
+@use "../library/_color" as color
+
+.btn
+    color: color.$accent-watermarked
+    font: 1rem var(--font)
+
+    @extend %BOX-MD
+
+    &-primary
+        color: color.$accent-lighter
+        border-color: color.$accent
+        background-color: color.$accent
+
+        @extend .btn
