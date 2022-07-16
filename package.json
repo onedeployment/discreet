@@ -1,9 +1,9 @@
 {
-  "name": "discreet-root",
+  "name": "discreet-monorepro",
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "dev": "echo \"Error: no test specified\" && exit 1"
+    "preinstall": "npx only-allow pnpm"
   },
   "license": "MIT"
 }
