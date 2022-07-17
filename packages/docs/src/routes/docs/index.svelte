@@ -21,7 +21,7 @@
 	<h2>Sponsor Discreet</h2>
 	<p>
 		If you would like to join us as a sponsor, we invite you to send us an e-mail to
-		onedeploymentorg@gmail.com.
+		<a href="mailto:onedeploymentorg@gmail.com">onedeploymentorg@gmail.com</a>.
 	</p>
 	<h2>Credits</h2>
 	<p>
