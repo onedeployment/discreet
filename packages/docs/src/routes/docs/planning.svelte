@@ -7,9 +7,17 @@
 <div class="WRAP">
 	<h2>Planning</h2>
 	<p>
-		The planning is done through our <a href="/$">Discord channel</a>, where decisions are made in
-		collaboration with programmers and leaders, and then added to our task tree in
-		<a href="/$">Github projects</a>.
+		The planning is done through our <a
+			href="https://discord.gg/hKmQSstCfF"
+			rel="noreferrer noopener"
+			target="_blank">Discord channel</a
+		>, where decisions are made in collaboration with programmers and leaders, and then added to our
+		task tree in
+		<a
+			href="https://github.com/orgs/onedeployment/projects?type=classic"
+			rel="noreferrer noopener"
+			target="_blank">Github projects</a
+		>.
 	</p>
 	<p>The planning process looks like this:</p>
 	<img
