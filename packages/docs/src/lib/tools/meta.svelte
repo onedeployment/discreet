@@ -26,7 +26,10 @@
 		property="twitter:description"
 		content="Discreet is a SCSS design system created by a Christian ministry of the One Deployment organization."
 	/>
-	<meta property="twitter:image" content="https://discreet.onedeployment.org/image/discreet-meta.png" />
+	<meta
+		property="twitter:image"
+		content="https://discreet.onedeployment.org/image/discreet-meta.png"
+	/>
 
 	<meta
 		name="keywords"
